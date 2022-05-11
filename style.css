@@ -1,0 +1,21 @@
+div
+{
+  max-width: 30%;
+  height: 200px;
+  background: blue;
+  padding-top: 2px;
+  margin: 1px;
+  float: left;
+  
+}
+
+p
+{
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
